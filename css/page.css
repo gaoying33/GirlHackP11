@@ -1,8 +1,95 @@
-﻿#head{
+﻿header{
   height: 35px;
-  padding: 30px 0;
+  padding: 20px 100px;
   margin: 0;
+  background-color: #EDEDED;
+  font-family: '微软雅黑';
+  font-weight: bold;
+  font-size: 22px;
 }
-#head .logo{
-	height: 35px;
+header .logo{
+	width: 150px;
+	vertical-align: middle;
+	margin-right: 40px;
+}
+header nav{
+	display: inline-block;
+}
+header nav span{
+	margin-right: 10px;
+}
+header #search input{
+	width: 100px;
+	height: 25px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+header #search img{
+	width: 20px;
+}
+header #search input:focus{
+	border-color: rgba(82,168,236,.8);
+	outline: 0;
+	box-shadow: 0 0 8px rgba(82,168,236,.6);
+}
+
+
+/*登录*/
+#login{
+	width: 25%;
+	margin: 0 auto;
+	padding-top: 200px;
+}
+#login h1{
+	font-size: 28px;
+	margin-bottom: 25px;
+}
+#login h1 img{
+	width: 250px;
+	margin-right: 15px;
+}
+#login h1 i{
+	display: inline-block;
+	margin-right: 3px;
+	color: #0069EC;
+	font-weight: bold;
+}
+#login h1 i:last-child{
+	color: #F80621;
+}
+#login > div > div{
+	padding-left: 20px;
+	margin-bottom: 15px;
+}
+#login label{
+	font-size: 20px;
+	margin-right: 5px;
+	color: #009A03;
+}
+#login input{
+	width: 60%;
+	height: 25px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+#login input:focus{
+	border-color: rgba(82,168,236,.8);
+	outline: 0;
+	box-shadow: 0 0 8px rgba(82,168,236,.6);
+}
+
+/*首页*/
+#home .left{
+	width: 70%;
+	float: left;
+}
+#home .left div{
+	padding-left: 100px;
+}
+#home .right{
+	overflow: hidden;
 }
